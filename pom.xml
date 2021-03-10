@@ -250,6 +250,10 @@
     <buildinfo.webapi.release.tag>*</buildinfo.webapi.release.tag>
 
     <gis.enabled>false</gis.enabled>
+
+    <audit.trail.enabled>true</audit.trail.enabled>
+    <audit.trail.log.file>/tmp/atlas/audit/audit.log</audit.trail.log.file>
+    <audit.trail.log.extraFile>/tmp/atlas/audit/audit-extra.log</audit.trail.log.extraFile>
   </properties>
   <build>
     <finalName>WebAPI</finalName>
@@ -1090,6 +1094,11 @@
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
+    </dependency>
+    <dependency>
+      <groupId>com.cloudbees</groupId>
+      <artifactId>syslog-java-client</artifactId>
+      <version>1.1.7</version>
     </dependency>
   </dependencies>
   <profiles>
