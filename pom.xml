@@ -1185,8 +1185,8 @@
         <datasource.ohdsi.schema>ohdsi</datasource.ohdsi.schema>
         <flyway.datasource.driverClassName>${datasource.driverClassName}</flyway.datasource.driverClassName>
         <flyway.datasource.url>${datasource.url}</flyway.datasource.url>
-        <flyway.datasource.username>userWithWritesToOhdsiSchema</flyway.datasource.username>
-        <flyway.datasource.password>PASS</flyway.datasource.password>
+        <flyway.datasource.username>ohdsi</flyway.datasource.username>
+        <flyway.datasource.password>ohdsi</flyway.datasource.password>
         <flyway.schemas>${datasource.ohdsi.schema}</flyway.schemas>
         <flyway.placeholders.ohdsiSchema>${datasource.ohdsi.schema}</flyway.placeholders.ohdsiSchema>
         <flyway.locations>classpath:db/migration/postgresql</flyway.locations>
