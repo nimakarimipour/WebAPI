@@ -521,7 +521,7 @@
       <dependency>
         <groupId>com.amazon.redshift</groupId>
         <artifactId>redshift-jdbc42-no-awssdk</artifactId>
-        <version>1.2.51.1078</version>
+        <version>1.2.47.1071</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
