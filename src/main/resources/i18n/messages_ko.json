@@ -1158,7 +1158,7 @@
       "tagNamePlaceholder": "Tag name",
       "assignedTags": "Assigned tags:",
       "tagGroups": "Tag groups:",
-      "tagGroup:": "Tag group:",
+      "tagGroup": "Tag group:",
       "showTags": "Show tags",
       "tagNameExistsWarning": "Tag <%=tagName%> already exists.",
       "cannotUnassignProtectedTagWarning": "Cannot unassign protected tag: <%=tagName%>",

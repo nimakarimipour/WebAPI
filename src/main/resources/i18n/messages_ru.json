@@ -1158,7 +1158,7 @@
       "tagNamePlaceholder": "Имя тега",
       "assignedTags": "Назначенные теги:",
       "tagGroups": "Группы тегов:",
-      "tagGroup:": "Группа:",
+      "tagGroup": "Группа:",
       "showTags": "Показать теги",
       "tagNameExistsWarning": "Тег <%=tagName%> уже существует.",
       "cannotUnassignProtectedTagWarning": "Невозможно отменить назначение защищенного тега: <%=tagName%>",
